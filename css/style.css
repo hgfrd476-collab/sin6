@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #323f5b;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 60px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.first{
+   
+    width: 100%;
+    height: 70px;
+    background-color:#3e5d88;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    display: flex;
+    top: 0;
+}
+
+a{
+    color: #f5f6f5;
+    font-weight: bold;
+}
+a:hover{
+    color: #08323d;
+}
+.card button:hover{
+
+  transform:scale(1.1);
+}
+.home{
+    font-size: 30px;
+    display: flex;
+    align-items:center;
+    list-style-type:none;
+    height: 100%;
+    width: 90%;
+    gap:70px ;
+}
+.homepage{
+    height: 600px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+     background-position: center;
+    background-image: url(../image/bg.png);
+    }
+
+
+ .write{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 60px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #323f5b;
+    text-align: center;
+    }
+.write button{
+    width:60%;
+    padding:12px;
+    border:none;
+    border-radius:30px;
+    border: 2px solid rgb(159, 161, 181);
+    background:#10b8e2;
+   color: #323f5b;
+    font-size:20px;
+    cursor:pointer;
+}
+.container{
+    background-color: #c6d4e2;
+    margin: auto;
+    padding-top: 15px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+}
+
+.card{
+     margin-left: 20px;
+    margin-right: 20px;
+    background:#5f6b6d;
+    border-radius:20px;
+    padding:15px;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    border-radius:15px;
+    background:white;
+    padding: 5px;
+}
+
+.info{
+    display:flex;
+    justify-content:space-between;
+    margin:10px 0;
+    font-weight:bold;
+}
+.about{
+    height: 700px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+     background-position: center;
+    background-image: url(../image/bg.png);
+}
+.about p{
+     width: 50%;
+    padding-left: 50px;
+    padding-top: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #323f5b;
+    text-align: start;
+}
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:20px;
+    background:#0f4c5c;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+
+  transition:0.3s;
+}
+
+button:hover{
+    background:#08323d;
+}
